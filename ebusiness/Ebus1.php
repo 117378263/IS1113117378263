@@ -4,7 +4,7 @@
         <title>Select Product</title>
         
         <!--Jquery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/Jquery/3.2.1/Jquery.min"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
     
@@ -39,7 +39,7 @@
             
             <label for="Total">
             Total
-            <input type="text" id="Total" value="0.00" read only/>
+            <input type="text" id="total" value="0.00" read only/>
             </Label>
             
             
@@ -52,7 +52,7 @@
         </form>
         
         <br/>
-        <button onClick="CalcSub()">Calculate Cost</button>
+        <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>
 </html>
