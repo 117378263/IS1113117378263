@@ -13,7 +13,7 @@
         <h4>Select a Product</h4>
         <br/>
         
-        <form method="Post" Action="ebus2.php">
+        <form method="Post" Action="Ebus2.php">
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnproceed()"/>
