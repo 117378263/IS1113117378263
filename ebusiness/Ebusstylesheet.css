@@ -1,5 +1,5 @@
 body{
-    background:url('http://cdn.technologyadvice.com/wp-content/uploads/2017/03/cloud-storage-blog-image.png') no-repeat;
+    background:url('https://www.acronis.com/sites/default/files/inline_images/online-backup-service.jpg') no-repeat;
     background-size: cover;
     font-family: arial;
     color: white;
@@ -9,6 +9,7 @@ ul{
    margin: 0px; 
     padding:0px;
     list-style: none;
+    
     
 }
 
@@ -45,8 +46,4 @@ ul li:hover ul li{
     display: block;
     
 }
-
-
-
-
 
