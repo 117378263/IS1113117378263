@@ -10,6 +10,8 @@ function calcSub(){
 else{
     argSubTotal = 300;
 }
+
+
 display(argSubTotal);
 }
 
