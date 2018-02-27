@@ -49,7 +49,7 @@ ul li:hover ul li{
 
 .slider {
     overflow: hidden;
-    height: 350px;
+    height: 320px;
 }
 
 .slider  div{
@@ -58,7 +58,7 @@ ul li:hover ul li{
 }
 
 .slider  img{
-     width: 100%;
+     width: 80%;
     float: left;
 }
 
