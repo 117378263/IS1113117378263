@@ -7,6 +7,8 @@
        
        <style>
         
+          /* styling page with buttons and edits to headers and lists*/
+          
         h1 {
     font-size: 40px;
 }
@@ -26,6 +28,34 @@ ol li{
     ol{
        font-size: 24px;
     }    
+    
+     .Next{
+  height:38px;
+  background:#0f847c;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  cursor: pointer;
+}
+    .Home{
+border: 2px solid #f44336;
+    background-color: white; 
+    color: red;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+ .hover:hover{
+     background-color: #f44336;
+    color: white; 
+ }
        </style>
        
        
@@ -51,7 +81,7 @@ ol li{
    
    
      
-              
+               <!--images with link when clicked on-->
             
                   <a href="http://searchcloudcomputing.techtarget.com/definition/Infrastructure-as-a-Service-IaaS">
                      <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/02/AMAZON-1200x537.png"
@@ -91,7 +121,7 @@ ol li{
  <br/>
   <br/>
  
-   
+     <!--ordered list-->
        
        <ol>
            <li><strong>Money Savings:</strong></li>
@@ -146,12 +176,16 @@ ol li{
    <br/>
    <br/>
    
-     <a href="ebushome.html" class="btn btn-success" style="background-color:lightgreen">Home</a>
+    <!--button to home page-->
+    
+     <a href="ebushome.html" class="Home">Home</a>
                        
                         <br/>
                      <br/>
                       
-                       <a href="caas.html" class="btn btn-next" style="background-color:lightgreen">Next</a>
+                         <!--button to next page-->
+                         
+                       <a href="caas.html" class="Next">Next</a>
    
    
     </body>

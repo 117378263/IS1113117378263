@@ -1,3 +1,4 @@
+/* adding background image */
 body{
     background:url('https://www.acronis.com/sites/default/files/inline_images/online-backup-service.jpg') no-repeat;
     background-size: cover;
@@ -5,6 +6,7 @@ body{
     color: white;
 }
 
+  /* applying edits to unordered list to form a navigation bar */
 ul{
    margin: 0px; 
     padding:0px;
@@ -47,6 +49,7 @@ ul li:hover ul li{
     
 }
 
+  /* applying commands to slideshow */
 .slider {
     overflow: hidden;
     height: 320px;

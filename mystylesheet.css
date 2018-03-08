@@ -1,3 +1,6 @@
+
+/* adding background image */
+
 body{
     background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLAqebavUlPgWSHwMHrQQ9hrlPaNi3BeLhTwsXoqA_jRIVbIN09A') no-repeat;
     background-size: cover;
@@ -11,7 +14,7 @@ body{
 
 
 
-
+ /* applying edits to unordered list to form a navigation bar */
 
 ul{
    margin: 0px; 
@@ -54,6 +57,7 @@ ul li:hover ul li{
     
 }
 
+/* applying commands to slideshow */
 
 .slider {
     overflow: hidden;

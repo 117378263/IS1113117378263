@@ -2,6 +2,9 @@
 
 function calcSub(){
     
+    
+    // function for radio button calculations
+    
     var argSubTotal;
     
     if(document.getElementById('salesforce').checked) {
@@ -19,6 +22,8 @@ function calcSub(){
 
     calcDisVatTotal(argSubTotal);
 }
+
+// function for disscount and vat
 
 function calcDisVatTotal(parmSubTotal){
   var num1, num2, discount, vat, totalPrice;
@@ -41,6 +46,7 @@ function display(parm1,parm2,parm3,parm4){
 }
 
     
+// function for proceed button
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
