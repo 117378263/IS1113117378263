@@ -5,6 +5,7 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
+        
     </head>
     
     <style>
@@ -25,6 +26,16 @@ session_start();
   color:#ffffff;
   cursor: pointer;
             }
+            
+             .button_home{
+  height:38px;
+  background:#0f847c;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  cursor: pointer;
+             }
     </style>
     
     <div align="center">
@@ -55,6 +66,10 @@ session_start();
  <!--adding print button to page-->
 <button onclick="PrintFunction()" class="print">Print this page</button>
 </div>
+
+<br/><br/>
+ <!--adding home button to page-->
+<a  class="button_home" href="../homepage.html">Home</a>
 
  <!--print function-->
 <script>
